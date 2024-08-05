@@ -375,6 +375,18 @@ class ArrowIcons extends StatelessWidget {
   }
 }
 
+//
+//  decoration: BoxDecoration(
+//        color: Colors.white,
+//        borderRadius: BorderRadius.circular(15),
+//        boxShadow: [
+//          BoxShadow(
+ //           color: Colors.grey.shade200,
+ //           spreadRadius: 10,
+ //           blurRadius: 12,
+  //        ),
+  //      ],
+   //   ),
 class Plane extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -384,7 +396,7 @@ class Plane extends StatelessWidget {
       child: RotatedBox(
         quarterTurns: 2,
         child: Icon(
-          Icons.airplanemode_active,
+          Icons.airplanemode_active, //add the above decoration to make that glow on conditional 
           size: 64,
         ),
       ),
